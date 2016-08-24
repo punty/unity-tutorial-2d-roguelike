@@ -21,6 +21,7 @@ GameObject:
   - 4: {fileID: 4000010414609312}
   - 212: {fileID: 212000011623932886}
   - 61: {fileID: 61000011707192564}
+  - 114: {fileID: 114000010416588902}
   m_Layer: 8
   m_Name: Wall4
   m_TagString: Untagged
@@ -55,6 +56,19 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
+--- !u!114 &114000010416588902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010685247846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a70fbc2c81842b2865795d42de1521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagedWall: {fileID: 0}
+  hp: 4
 --- !u!212 &212000011623932886
 SpriteRenderer:
   m_ObjectHideFlags: 1

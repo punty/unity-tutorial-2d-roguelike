@@ -20,8 +20,6 @@ public class GameManager : MonoBehaviour {
 		InitGame ();
 	}
 
-
-
 	void InitGame() {
 		boardScript.SetupScene (level);
 	}
